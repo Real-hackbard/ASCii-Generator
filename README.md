@@ -1,6 +1,11 @@
 # ASCii-Generator:
 With the ASCII Generator, you can convert your images to ASCII. Images can be rendered in monochrome, full color, or grayscale. The tool uses all TrueType fonts (TryTypeFonts) files installed on your Windows system, as well as the specific font settings.
 
+
+![ASCii Generator 1 0](https://github.com/user-attachments/assets/1748002f-dcfb-43b5-8666-47303a33ddfb)
+
+
+
 The formats loaded are Bitmap (*.BMP) (*.JPEG/JPG) (*.PNG) (*.GIF) (*.EMF) (*.WMF)
 
 Output file formats:
