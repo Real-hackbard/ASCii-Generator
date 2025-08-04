@@ -1,4 +1,13 @@
 # ASCii-Generator:
+
+```
+Compiler    : Delphi10 Seattle, 10.1 Berlin, 10.2 Tokyo, 10.3 Rio, 10.4 Sydney, 11 Alexandria, 12 Athens
+Components  : None
+Discription : Generate Image to ASCii Images
+Last Update : 08/2025
+License     : Freeware
+```
+
 With the ASCII Generator, you can convert your images to ASCII. Images can be rendered in monochrome, full color, or grayscale. The tool uses all TrueType fonts (TryTypeFonts) files installed on your Windows system, as well as the specific font settings.
 
 
