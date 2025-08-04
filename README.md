@@ -8,7 +8,7 @@ With the ASCII Generator, you can convert your images to ASCII. Images can be re
 
 The formats loaded are Bitmap (*.BMP) (*.JPEG/JPG) (*.PNG) (*.GIF) (*.EMF) (*.WMF)
 
-Output file formats:
+### Output file formats:
 1. Bitamp (*.BMP)
 2. JPEG (*JPEG; *.JPG)
 3. Tagged Image Files (*.TIF)
@@ -21,7 +21,7 @@ Output file formats:
 10. Rich Text Format (*.RTF) 💥 New
 
 
-Output web page formats:
+### Output web page formats:
 1. Hypertext Markup (*.HTM)
 2. Hypertext Markup Language (*.HTML)
 3. Server Side Includes (*.sHTM) (*.sHTML)
