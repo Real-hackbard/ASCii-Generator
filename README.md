@@ -1,6 +1,6 @@
 # ASCii-Generator:
 
-```
+```ruby
 Compiler    : Delphi10 Seattle, 10.1 Berlin, 10.2 Tokyo, 10.3 Rio, 10.4 Sydney, 11 Alexandria, 12 Athens
 Components  : None
 Discription : Generate Image to ASCii Images
@@ -15,9 +15,10 @@ With the ASCII Generator, you can convert your images to ASCII. Images can be re
 
 
 
+The image formats must be programmed separately and are compatible with the code. The basic format is bitmap.
 The formats loaded are Bitmap (*.BMP) (*.JPEG/JPG) (*.PNG) (*.GIF) (*.EMF) (*.WMF)
 
-### Output file formats:
+## Posible Output file formats:
 1. Bitamp (*.BMP)
 2. JPEG (*JPEG; *.JPG)
 3. Tagged Image Files (*.TIF)
@@ -30,7 +31,7 @@ The formats loaded are Bitmap (*.BMP) (*.JPEG/JPG) (*.PNG) (*.GIF) (*.EMF) (*.WM
 10. Rich Text Format (*.RTF) 💥 New
 
 
-### Output web page formats:
+## Posible Output web page formats:
 1. Hypertext Markup (*.HTM)
 2. Hypertext Markup Language (*.HTML)
 3. Server Side Includes (*.sHTM) (*.sHTML)
