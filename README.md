@@ -15,7 +15,7 @@ With the ASCII Generator, you can convert your images to ASCII. Images can be re
 
 
 
-The image formats must be programmed separately and are compatible with the code. The basic format is bitmap.
+The image formats must be programmed separately and are compatible with the code. The basic format is Bitmap.
 The formats loaded are Bitmap (*.BMP) (*.JPEG/JPG) (*.PNG) (*.GIF) (*.EMF) (*.WMF)
 
 ## Posible Output file formats:
