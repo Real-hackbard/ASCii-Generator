@@ -101,4 +101,26 @@ var c: TRGBTRIPLE;  h: Byte;
 end;
 ```
 
+The calculated colors must be specified in this section.
 
+```pascal
+// Calcualte Colors
+         Case RadioGroup1.ItemIndex of
+          0: bmp.Canvas.Font.Color := RGB(CalcGrayValue(aColor), 0, 0); // Red
+          1: bmp.Canvas.Font.Color := RGB(0, CalcGrayValue(aColor), 0); // Green
+          2: bmp.Canvas.Font.Color := RGB(0, 0, CalcGrayValue(aColor)); // Blue
+          3: bmp.Canvas.Font.Color := RGB(CalcGrayValue(aColor), CalcGrayValue(aColor), CalcGrayValue(aColor));
+          4: bmp.Canvas.Font.Color := aColor; // Calculate RGB Complete to Font
+        end;
+
+        // Calculate Individuall TColor to RGB on Font
+        if (RadioGroup1.Buttons[0].Checked = false) and
+           (RadioGroup1.Buttons[1].Checked = false) and
+           (RadioGroup1.Buttons[2].Checked = false) and
+           (RadioGroup1.Buttons[3].Checked = false) and
+           (RadioGroup1.Buttons[4].Checked = false) then begin
+            bmp.Canvas.Font.Color := RGB(CalcRed(aColor),
+                                     CalcGreen(aColor),
+                                     CalcBlue(aColor));
+          end;
+```
