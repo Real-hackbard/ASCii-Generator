@@ -21,6 +21,8 @@ With the ASCII Generator, you can convert your images to ASCII. Images can be re
 
 </br>
 
+TrueType was known during its development stage, first by the codename "Bass" and later on by the codename "Royal". The system was developed and eventually released as TrueType with the launch of [Mac System 7](https://en.wikipedia.org/wiki/System_7) in May 1991. The initial TrueType outline fonts, four-weight families of Times Roman, Helvetica, Courier, and the pi font "Symbol" replicated the original PostScript fonts of the Apple LaserWriter. Apple also replaced some of their [Bitmap Fonts](https://en.wikipedia.org/wiki/Computer_font#BITMAP) used by the graphical user-interface of previous Macintosh System versions (including Geneva, Monaco and New York) with scalable TrueType outline-fonts. For compatibility with older systems, Apple shipped these fonts, a TrueType [Extension](https://en.wikipedia.org/wiki/Extension_(Mac_OS)) and a TrueType-aware version of [Font/DA](https://en.wikipedia.org/wiki/Typography_of_Apple_Inc.) Mover for [System 6](https://en.wikipedia.org/wiki/System_6). For compatibility with the Laserwriter II, Apple developed fonts like ITC Bookman and ITC Chancery in TrueType format.
+
 ### Features:
 * Import Formats (*.BMP; *.JPG); *.PNG; *.GIF)
 * Export Formats (*.BMP; *.JPG); *.PNG; *.GIF)
