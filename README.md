@@ -58,7 +58,11 @@ function CalcGrayValue(Color: Cardinal): byte;
     Result := round((c.rgbtRed + c.rgbtGreen + c.rgbtBlue) / 3);
   end;
 
-Or each individual RGB channel
+{..]
+
+// Or each individual RGB channel
+
+{..]
 
  // Calculate Red (R) for Select TColor
 function CalcRed(Color: Cardinal): byte;      // red
