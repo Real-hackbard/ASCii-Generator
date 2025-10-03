@@ -21,3 +21,19 @@ With the ASCII Generator, you can convert your images to ASCII. Images can be re
 
 </br>
 
+### Features:
+* Import Formats (*.BMP; *.JPG); *.PNG; *.GIF)
+* Export Formats (*.BMP; *.JPG); *.PNG; *.GIF)
+* Load System TTF Files
+* Select TColors
+* Set RGB Colors
+* Calculate Bumpmap (RGB) on Image
+* Invert Image
+* Highlight Image
+* Calculate Sepia Effect (10%)
+* Resample Image (1%)
+* Blur (1%)
+* Flip Image (X, Y)
+* Rotate Image 90°
+* Export Tranzparent Images
+* Select Custom ASCii Term
