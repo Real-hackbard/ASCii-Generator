@@ -124,3 +124,7 @@ The calculated colors must be specified in this section.
                                      CalcBlue(aColor));
           end;
 ```
+
+</br>
+
+### Have Fun with ASCii !
