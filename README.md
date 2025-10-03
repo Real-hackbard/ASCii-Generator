@@ -39,3 +39,62 @@ TrueType was known during its development stage, first by the codename "Bass" an
 * Rotate Image 90°
 * Export Tranzparent Images
 * Select Custom ASCii Term
+
+</br>
+
+### Colors:
+The various color calculations are somewhat more complex than with a single primary color. Here, both the entire RGB color set and each individual RGB channel can be defined, in all possible colors.
+
+The colors can be modified as desired.
+```pascal
+// The entire RGB output.
+// Main Color Calculation for (RGB)
+function CalcGrayValue(Color: Cardinal): byte;
+  var c: TRGBTRIPLE; // h: Byte;
+  begin
+    c.rgbtRed   := GetRValue(Color);
+    c.rgbtGreen := GetGValue(Color);
+    c.rgbtBlue  := GetBValue(Color);
+    Result := round((c.rgbtRed + c.rgbtGreen + c.rgbtBlue) / 3);
+  end;
+
+Or each individual RGB channel
+
+ // Calculate Red (R) for Select TColor
+function CalcRed(Color: Cardinal): byte;      // red
+var c: TRGBTRIPLE;  h: Byte;
+  begin
+    c.rgbtRed   := GetRValue(Color); c.rgbtGreen := GetGValue(Color);
+    c.rgbtBlue  := GetBValue(Color);
+    h := HiByte(c.rgbtRed * SpinEdit1.Value + c.rgbtGreen * 0 + c.rgbtBlue * 0);
+    Result := RGB(h + Round((c.rgbtRed - h) / 255),
+                  h + Round((c.rgbtGreen - h) / 255),
+                  h + Round((c.rgbtBlue - h) / 255));
+end;
+
+  // Calculate Green (G) for Select TColor
+function CalcGreen(Color: Cardinal): byte;     // green
+var c: TRGBTRIPLE;  h: Byte;
+  begin
+    c.rgbtRed   := GetRValue(Color); c.rgbtGreen := GetGValue(Color);
+    c.rgbtBlue  := GetBValue(Color);
+    h := HiByte(c.rgbtRed * 0 + c.rgbtGreen * SpinEdit2.Value + c.rgbtBlue * 0);
+    Result := RGB(h + Round((c.rgbtRed - h) / 255),
+                  h + Round((c.rgbtGreen - h) / 255),
+                  h + Round((c.rgbtBlue - h) / 255));
+end;
+
+  // Calculate Blue (B) for Select TColor
+function CalcBlue(Color: Cardinal): byte;     // blue
+var c: TRGBTRIPLE;  h: Byte;
+  begin
+    c.rgbtRed   := GetRValue(Color); c.rgbtGreen := GetGValue(Color);
+    c.rgbtBlue  := GetBValue(Color);
+    h := HiByte(c.rgbtRed * 0 + c.rgbtGreen * 0 + c.rgbtBlue * SpinEdit3.Value);
+    Result := RGB(h + Round((c.rgbtRed - h) / 255),
+                  h + Round((c.rgbtGreen - h) / 255),
+                  h + Round((c.rgbtBlue - h) / 255));
+end;
+```
+
+
