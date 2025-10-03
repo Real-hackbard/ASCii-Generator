@@ -27,12 +27,12 @@ With the ASCII Generator, you can convert your images to ASCII. Images can be re
 * Load System TTF Files
 * Select TColors
 * Set RGB Colors
-* Calculate Bumpmap (RGB) on Image
-* Invert Image
-* Highlight Image
-* Calculate Sepia Effect (10%)
-* Resample Image (1%)
-* Blur (1%)
+* [Bumpmap](https://en.wikipedia.org/wiki/Bump_mapping) (RGB) on Image
+* [Invert](https://en.wikipedia.org/wiki/Negative_(photography)) Image
+* [Highlight](https://en.wikipedia.org/wiki/Clipping_(photography)) Image
+* [Sepia](https://en.wikipedia.org/wiki/Photographic_print_toning) Effect (10%)
+* [Resample](https://en.wikipedia.org/wiki/Image_scaling) Image (1%)
+* [Blur](https://en.wikipedia.org/wiki/Gaussian_blur) (1%)
 * Flip Image (X, Y)
 * Rotate Image 90°
 * Export Tranzparent Images
