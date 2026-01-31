@@ -14,7 +14,7 @@ With the ASCII Generator, you can convert your images to ASCII. Images can be re
 
 </br>
 
-![ASCii Generator_c64](https://github.com/user-attachments/assets/53a86363-c673-4d86-8ae0-9545734279a0)
+![ASCii Commodore](https://github.com/user-attachments/assets/699e04c8-4f60-4ca6-9bb2-41f4ed4e00fb)
 
 </br>
 
